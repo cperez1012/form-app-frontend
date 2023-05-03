@@ -1,10 +1,13 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
-import Home from './components/Home/Home';
+//import Home from './components/Home/Home';
+import MainHeader from './components/MainHeader/MainHeader';
 
 function App() {
   return (
-    <Home></Home>
+    <>
+      <MainHeader/>
+    </>
   );
 }
 
